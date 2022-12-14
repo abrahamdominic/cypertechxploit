@@ -170,7 +170,9 @@ body {margin:0;font-family:Arial}
     border-radius: 100px;
     border-left: 100px;
   }
-  
+   p.newton {
+    font-family: cursive;
+  }
  
     .profile {
       margin-top: 50px;

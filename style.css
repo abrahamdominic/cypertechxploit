@@ -126,7 +126,7 @@ body {margin:0;font-family:Arial  border-radius: 100px;
       border-color: seashell;
   }
 p.welcome {
-       font-family: inherit;
+       font-family: "sofia", sans-serif;
        font-size: 60px;
        text-align: center;
 }

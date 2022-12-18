@@ -17,16 +17,17 @@
   <a href="Course.html">Courses</a>
   <a href="shop.html">Shop</a>
   <a href="#about">About</a>
+  <a href="./reg/reg.html">Register</a>
+      <a href="./reg/reg.html">Login</a>
+      <a href="blog.html">Blog</a>
+      <a href="script.html">Hacking Scripts</a>
+      <a href="contact.html">Contact</a>
   <div class="dropdown">
     <button class="dropbtn">More 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="./reg/reg.html">Register</a>
-      <a href="./reg/reg.html">Login</a>
-      <a href="blog.html">Blog</a>
-      <a href="script.html">Hacking Scripts</a>
-      <a href="contact.html">Contact</a>
+      
     </div>
   </div> 
   
@@ -56,7 +57,7 @@
 <p class="learn">learn more</p>
 <u><p class="course">Our Popular Courses</p></u>
 
-
+<div class="shift">
  <div class="art">
 <p><img class="pics" src="./img/htube.gif" alt="Hacker" width="100%" height="100%"></p>
    <p><a href="hack.html">Hack 4 Tube</a></p>
@@ -158,7 +159,8 @@
  <p>In This Social Media Hacking Course We Provide All Necessary Tools & Software !!!</p><hr class="faint">
  <p class="avail">Coming Soon ....</p>
  </p>
-</div><br>
+</div>
+  </div><br>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -180,6 +182,27 @@ function myFunction() {
    
     <p class="abraham">Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved</p>
        <p class="newton">Abraham Dominic Newton</p></center>
+  
+  <script>
+	
+	/* Add "https://api.ipify.org?format=json" statement
+			this will communicate with the ipify servers in
+			order to retrieve the IP address $.getJSON will
+			load JSON-encoded data from the server using a
+			GET HTTP request */
+				
+	$.getJSON("https://api.ipify.org?format=json", function(data) {
+		
+		// Setting text of element P with id gfg
+		$("#gfg").html(data.ip);
+	})
+	</script>
+  <center>
+		
+		<h3 class="address">Your Ip is:</h3>
+		<p class="ip" id="gfg"></p>
+
+	</center>
   </footer>
 </body>
 </html>

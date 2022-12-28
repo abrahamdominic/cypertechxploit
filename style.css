@@ -1,5 +1,15 @@
+:root {
+    --orange: #fd9940;
+    --darkorange: #dd7d25;
+    --platinum: #e5e5e5;
+    --black: #2b2d42;
+    --white: #fff;
+    --thumb: #edf2f4;
+}
+
 body {margin:0;font-family:Arial  border-radius: 100px;
-    border-left: 100px;  }
+    border-left: 100px;  color: var(--black);
+    background: var(--platinum);}
 
 .topnav {
   overflow: hidden;
